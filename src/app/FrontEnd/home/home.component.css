@@ -1,0 +1,275 @@
+
+.carousel-inner img{
+    height: 600px;
+}
+
+.carousel-inner img{
+    opacity: 0.7 !important;
+}
+.carousel-slider{
+    /*background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(#5700ad,#E100FF );  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(#5700ad,#E100FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h5{
+    font-size: 100px;
+    text-shadow: 2px 2px 3px #000000;
+    color: #7c4dff;
+    font-weight: bold;
+}
+.caption-slider{
+    /*margin-bottom: 200px !important;*/
+    top: 150px !important;
+    text-align: left;
+}
+
+.caption-slider p{
+    font-size: 40px;
+    font-weight: bold;
+}
+.bg-custom{
+    background: #220341 !important;
+}
+.bg-custom p{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+/*start servicios*/
+.bg-custom-1{
+    background: #220341 !important;
+}
+.bg-custom-2{
+    background: #3c0a6e !important;
+}
+.bg-custom-3{
+    background: #220341 !important;
+}
+.bg-custom-4{
+    background: #3c0a6e !important;
+}
+.bg-custom-5{
+    background: #220341 !important;
+}
+.bg-custom-6{
+    background: #3c0a6e !important;
+}
+
+.service-1 div, .service-2 div, .service-3 div, .service-4 div, .service-5 div, .service-6 div{
+    width: 100% !important;
+    height: 100% !important;
+}
+.container-fluid img{
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0px !important;
+    opacity: 0.3;
+}
+.img-diseño{
+    opacity: 0.1 !important;
+    /*transition: all 1s;
+    transform: translate(0,350px);*/
+    /*-webkit-transform: translate(350px,0);
+    -o-transform: translate(350px,0); 
+    -moz-transform: translate(350px,0);*/
+}
+
+/*caption aligns*/
+.caption-1, .caption-2, .caption-3, .caption-4, .caption-5, .caption-6{
+    left: 0;
+    bottom: 0;
+}
+.text{
+    color: #cfcfcf;
+}
+.items ul li {
+    list-style: none !important;
+    text-decoration: none !important;
+}
+.items ul{
+    text-align: left !important;
+}
+/*child*/
+.bg-custom-1{
+    position: relative;
+    overflow: hidden;
+}
+.child-1, .child-2 , .child-3, .child-4, .child-5, .child-6{
+    background-color: hsla(4, 99%, 31%, 0.384);
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    display: table;
+    z-index: 10;
+    color: #cfcfcf;
+    text-align: center;
+    line-height: 1.2;
+  }
+.child-2{
+    background: red;
+    background-color: hsla(219, 100%, 39%, 0.384);
+  }
+.child-3{
+    background: hsla(308, 100%, 23%, 0.384);
+}
+.child-4{
+    background: hsla(239, 82%, 40%, 0.384);
+}
+.child-5{
+    background: hsla(194, 98%, 25%, 0.384);
+}
+.child-6{
+    background: hsla(286, 100%, 39%, 0.384);
+}
+/*caption components*/
+.items ul li a{
+    color: #ffffff;
+    /*transition: all 1s;*/
+}
+/*srvicios 2*/
+.bg-custom-2, .bg-custom-3, .bg-custom-4, .bg-custom-5, .bg-custom-6{
+    position: relative;
+    overflow: hidden;
+}
+h4, h3, ul li a{
+    font-family: 'Roboto Condended', sans-serif;
+}
+
+/*
+.nav-link:hover{
+    color: white !important;
+    font-weight: 500 !important;
+    
+}*/
+
+
+
+
+
+/*end servicios*/
+
+/*ANIMACIONES DE CHILDREN*/
+div:last-of-type .child-1 {
+  animation: slidein 5s infinite;
+}
+div:last-of-type .child-2 {
+    animation: showup 5s infinite;
+}
+div:last-of-type .child-3 {
+    animation: showbutton 5s infinite;
+}
+div:last-of-type .child-4 {
+    animation: showbutton 5s infinite;
+  }
+  div:last-of-type .child-5 {
+      animation: showup 5s infinite;
+  }
+  div:last-of-type .child-6 {
+      animation: slidein 5s infinite;
+  }
+
+
+
+div .items{
+    animation: showbutton 3s normal;
+}
+
+/*oculta caption*/
+.caption-hide{
+    transition: all 1s;
+    transform: translate(0,350px);
+}
+
+/*CUSTOM INFO CAROUSEL*/
+.bg-custom-container{
+    background: #5700ad;
+}
+.custom-info .img-info{
+    height: 500px !important;
+}
+.custom-info .carousel-caption .svg-1{
+    opacity: 1;
+    width: 350px !important;
+    height: 350px !important;
+}
+.custom-info .carousel-caption .svg-2{
+    opacity: 1;
+    width: 350px !important;
+    height: 350px !important;
+}
+.custom-info .carousel-caption .svg-3{
+    opacity: 1;
+    width: 350px !important;
+    height: 350px !important;
+}
+
+/*Custom carousel - responsive*/
+@media screen and (max-width: 768px){
+    .caption-slider h5{
+        font-size: 50px !important;
+        text-align: center;
+    }
+    .caption-slider p{
+        font-size: 25px !important;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes showup {
+    0% { margin-top:-40px; }
+    20% { margin-top:-40px; }
+    45% { margin-top:0px; }
+    100% { margin-top:0px; }
+}
+
+@keyframes showbutton {
+    0% { margin-top:300px; }
+    20% { margin-top:300px; }
+    75% { margin-top:0px; }
+    100% { margin-top:0px; }
+}/*
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}*/
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+@keyframes slideright {
+    0% { margin-right:-800px; }
+    20% { margin-right:-800px; }
+    35% { margin-right:0px; }
+    100% { margin-right:0px; }
+}
+
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}

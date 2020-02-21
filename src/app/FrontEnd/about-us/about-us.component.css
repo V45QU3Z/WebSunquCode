@@ -1,0 +1,82 @@
+.img-team{
+    height: 400px;
+}
+.carousel-caption{
+    top: 20px !important;
+}
+.carousel-caption h2{
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.custom-description{
+    background: linear-gradient(#a180fc,#3408ac) !important;
+}
+h4, p{
+    text-align: justify;
+}
+.rounded-circle{
+    width: 300px !important;
+    height: 300px !important;
+}
+
+@media screen and (max-width: 768px){
+    .custom-container{
+        flex-direction: row-reverse !important;
+    }
+    .description-2:nth-of-type(1){
+        order: 2;
+    }
+    .description-2:nth-of-type(2){
+        order: 1;
+    }
+}
+
+
+/*COMENATARIOS*/
+.footer{
+    width: 100%;
+    height: auto;
+    background: #270a47;
+}
+.footer-img img{
+    height: 400px;
+    opacity: 0.4;
+}
+.carousel-caption {
+    top: 0px;
+}
+textarea{
+    top: 0;
+}
+.custom-form input, select, textarea{
+    background: rgba(1, 1, 1, 0.0);
+    border: 2px solid #cacaca !important;
+    border-radius: 5px;
+}
+.custom-form textarea:focus{
+    border: 2px solid white !important;
+}
+.custom-form input:focus{
+    border: 2px solid white !important;
+}
+.custom-form select:focus{
+    border: 2px solid white !important;
+}
+select {
+    color: #cacaca;
+}
+select option{
+    color: rgb(34, 34, 34);
+    
+}
+.custom-form input, select, textarea{
+    color: white;
+}
+::-webkit-input-placeholder{
+    color: #cacaca;
+}
+.comentanos  p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

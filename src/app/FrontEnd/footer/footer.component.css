@@ -1,0 +1,85 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background: #270a47;
+}
+.footer-img img{
+    height: 400px;
+    opacity: 0.4;
+}
+.carousel-caption {
+    top: 0px;
+}
+textarea{
+    top: 0;
+}
+.custom-form input, select, textarea{
+    background: rgba(1, 1, 1, 0.0);
+    border: 2px solid #cacaca !important;
+    border-radius: 5px;
+}
+.custom-form textarea:focus{
+    border: 2px solid white !important;
+}
+.custom-form input:focus{
+    border: 2px solid white !important;
+}
+.custom-form select:focus{
+    border: 2px solid white !important;
+}
+select {
+    color: #cacaca;
+}
+select option{
+    color: rgb(34, 34, 34);
+    
+}
+.custom-form input, select, textarea{
+    color: white;
+}
+::-webkit-input-placeholder{
+    color: #cacaca;
+}
+.comentanos  p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*start FOOTER*/
+.custom-footer h3, h4, h6, p{
+    color: white;
+}
+.custom-footer p{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav li a i{
+    font-size: 30px;
+    color: white;
+}
+a i:hover{
+    color: #008cff !important;
+}
+.copy{
+    font-size: 15px;
+}
+a{
+    font-size: 13px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    cursor: pointer !important;
+    color: #008cff !important;
+}
+
+.nav-project li a i{
+    font-size: 15px;
+}
+.icon-github a i{
+    font-size: 70px !important;
+    color: white;
+}
+.icon-github p{
+   
+}

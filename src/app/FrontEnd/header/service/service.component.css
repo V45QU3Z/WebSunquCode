@@ -1,0 +1,52 @@
+.img-service{
+    height: 400px;
+    opacity: 0.5;
+}
+.col-banner{
+    background: #5700ad;
+    padding: 1px !important;
+}
+.text-service{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+/*SERVICIOS*/
+.subtitles{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+ul li{
+    list-style: none !important;
+}
+.list-details li{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.list-details li i{
+    font-size: 25px;
+}
+.custom-col p, li{
+    text-align: justify;
+    font-size: 16px;
+}
+.custom-btn{
+    
+    background: #7c4dff ;
+    color: white;
+    box-shadow: 2px 2px 3px #9c9c9c !important;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.img-detail{
+    height: 400px;
+}
+
+@media screen and (max-width: 768px){
+    .container-father{
+        flex-direction: row-reverse !important;
+    }
+    .description-child:nth-of-type(1){
+        order: 2;
+    }
+    .description-child:nth-of-type(2){
+        order: 1;
+    }
+}

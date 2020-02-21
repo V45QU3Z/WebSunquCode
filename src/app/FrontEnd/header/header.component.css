@@ -1,0 +1,11 @@
+.navbar-light{
+    background: #7c4dff !important;
+    box-shadow: 1px 1px 2px gray;
+}
+.navbar-light li a{
+    color: white !important;
+    font-size: 16px;
+}
+.navbar-light li:hover{
+    background: #651fff !important;
+}
